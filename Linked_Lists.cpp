@@ -261,18 +261,3 @@ class LinkedLists{
 };
 
 
-int main(int argc, char *argv[]) {
-	
-	 LinkedLists l1,l2;
-   int value;
-	 l1.insert_position(1,100);
-   l1.insert_end(200);
-   l1.insert_end(300);
-   l1.insert_end(400);
-	 l1.display();
-	 value = l1.delete_position(4);
-   cout<<value<<" is successfully deleted\n";
-    l1.display();
-
-	
-}
